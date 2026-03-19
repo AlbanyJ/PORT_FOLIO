@@ -64,6 +64,11 @@ export default function About() {
 
         {/* Interests grid */}
         <div>
+          <img
+            src="/profile.jpg"
+            alt="Albany"
+            className="w-32 h-32 rounded-2xl object-cover border border-[#1A2235] mb-6"
+          />
           <h3 className="font-display font-semibold text-text text-lg mb-5">
             Things I'm interested in
           </h3>

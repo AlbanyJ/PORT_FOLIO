@@ -23,7 +23,7 @@ export default function Contact() {
 
     try {
       // Option A: Formspree — sign up at formspree.io, replace the URL below
-      const res = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+      const res = await fetch('https://formspree.io/f/mwvrypgv', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(form),
