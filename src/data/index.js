@@ -46,20 +46,20 @@ export const skills = [
 
 export const projects = [
   {
-    title: "AI Chat Interface",
+    title: "SusuPro",
     description:
-      "A clean chat UI that connects to an LLM API. Built to practice React state management and async API calls. Supports streaming responses.",
-    tech: ["React", "Tailwind CSS", "OpenAI API"],
-    github: "https://github.com/yourusername/ai-chat",
-    live: "https://your-project.vercel.app",
+      "A mobile app for managing susu (rotating savings) groups. Built with React Native and Expo, using Firebase for cloud sync and SQLite plus async storage for offline-first use.",
+    tech: ["React Native", "Expo", "Firebase", "SQLite"],
+    github: "https://github.com/AlbanyJ/SusuPro",
+    live: null,
     featured: true,
   },
   {
-    title: "Student Grade Predictor",
+    title: "AI Meetup Playground",
     description:
-      "A machine learning model that predicts student grades based on study habits and attendance. Trained with scikit-learn, deployed with a Flask API.",
-    tech: ["Python", "Scikit-learn", "Flask", "Pandas"],
-    github: "https://github.com/yourusername/grade-predictor",
+      "A multi-modal AI project combining a chat app, speech-to-text, text-to-speech, and a vision module — built to explore different AI capabilities side by side.",
+    tech: ["Python", "Speech-to-Text", "Text-to-Speech", "Computer Vision"],
+    github: "https://github.com/AlbanyJ/ai-meetup",
     live: null,
     featured: true,
   },
@@ -68,16 +68,16 @@ export const projects = [
     description:
       "This portfolio website — built with React, Vite, and Tailwind CSS. Features smooth animations with Framer Motion and a clean dark design.",
     tech: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/yourusername/portfolio",
-    live: "https://your-portfolio.vercel.app",
+    github: "https://github.com/AlbanyJ/PORT_FOLIO",
+    live: null,
     featured: false,
   },
   {
-    title: "Todo CLI App",
+    title: "React Fundamentals",
     description:
-      "A command-line task manager written in C++ with file persistence. Supports add, complete, delete, and list operations.",
-    tech: ["C++", "File I/O", "CLI"],
-    github: "https://github.com/yourusername/todo-cli",
+      "A hands-on collection of exercises covering core React concepts — components, props, conditional rendering, list rendering, and state management with useState.",
+    tech: ["React", "JavaScript"],
+    github: "https://github.com/AlbanyJ/REACT",
     live: null,
     featured: false,
   },

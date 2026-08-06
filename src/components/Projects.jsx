@@ -117,7 +117,7 @@ export default function Projects() {
       {/* GitHub CTA */}
       <div className="mt-12 text-center">
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/AlbanyJ"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 font-mono text-sm text-text-dim hover:text-accent transition-colors border-b border-transparent hover:border-accent pb-0.5"
