@@ -69,7 +69,7 @@ export const projects = [
       "This portfolio website — built with React, Vite, and Tailwind CSS. Features smooth animations with Framer Motion and a clean dark design.",
     tech: ["React", "Vite", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/AlbanyJ/PORT_FOLIO",
-    live: null,
+    live: "https://port-folio-six-alpha-47.vercel.app/",
     featured: false,
   },
   {
