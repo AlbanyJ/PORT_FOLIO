@@ -119,6 +119,17 @@ export default function Contact() {
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+              {/* Honeypot — hidden from real users, bots tend to fill every field.
+                  Formspree silently discards submissions where this is non-empty. */}
+              <input
+                type="text"
+                name="_gotcha"
+                tabIndex="-1"
+                autoComplete="off"
+                aria-hidden="true"
+                style={{ position: 'absolute', left: '-9999px', width: 1, height: 1, opacity: 0 }}
+              />
+
               {/* Name */}
               <div>
                 <label className="block font-mono text-xs text-muted mb-1.5 tracking-wider uppercase">
