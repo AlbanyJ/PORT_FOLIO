@@ -17,7 +17,7 @@ export default {
         border: '#1A2235',
         accent: '#00FF94',
         'accent-dim': '#00CC77',
-        muted: '#4A5568',
+        muted: '#7B8AA3',
         text: '#E2E8F0',
         'text-dim': '#8899AA',
       },

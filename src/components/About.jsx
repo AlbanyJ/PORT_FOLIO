@@ -65,7 +65,7 @@ export default function About() {
         {/* Interests grid */}
         <div>
           <img
-            src="/profile.jpeg"
+            src="/profile-thumb.jpeg"
             alt="Albany"
             className="w-32 h-32 rounded-2xl object-cover border border-[#1A2235] mb-6"
           />
